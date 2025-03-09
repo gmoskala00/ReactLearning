@@ -6,6 +6,7 @@ import MyComponent from "./components/MyComponent";
 import MySizeComponent from "./components/MySizeComponent";
 import DigitalClock from "./components/DigitalClock";
 import ComponentA from "./components/ComponentA";
+import UseRefComponent from "./components/UseRefComponent";
 import { createElement, useState } from "react";
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
 
   return (
     <div className="d-flex flex-column min-vh-100 min-vw-100 container justify-content-center align-items-center">
-      <ComponentA></ComponentA>
+      <UseRefComponent></UseRefComponent>
+      {/* <ComponentA></ComponentA> */}
       {/* <DigitalClock></DigitalClock> */}
       {/* <MySizeComponent></MySizeComponent> */}
       {/* <ToDoList></ToDoList> */}
